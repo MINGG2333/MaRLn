@@ -52,9 +52,10 @@ if __name__ == "__main__":
         required=True,
         type=str,
         help="Folder containing all models, ie the supervised Resnet18 and the RL models",
+        default='model_RL_IAs_CARLA_Challenge/'
     )
     parser.add_argument("--port", type=int, default=2000)
-    parser.add_argument("--suite", choices=ALL_SUITES, default="town1")
+    parser.add_argument("--suite", choices=ALL_SUITES, default="town2")
     parser.add_argument("--seed", type=int, default=2020)
     parser.add_argument("--resume", action="store_true")
     parser.add_argument("--max-run", type=int, default=100)

@@ -1,3 +1,6 @@
+model_RL_IAs_*/
+model_RL_IAs_*.zip
+
 *.sw*
 **/__pycache__
 HDMaps/*
